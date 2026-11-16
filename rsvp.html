@@ -1,0 +1,46 @@
+<!-- Name: Muhammad Umair | Roll No: i26-3190 | Section: SE-D -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RSVP - FAST NUCES Islamabad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Candidate RSVP</h1>
+        <h2>FAST NUCES ISLAMABAD</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="venue.html">Venue & Directions</a>
+        <a href="rsvp.html" class="active">RSVP</a>
+    </nav>
+
+    <main>
+        <h2>Confirm Your Attendance</h2>
+        <p>Fill out the form below to register your attendance for the 12th November, 2026 session.</p>
+
+        <form onsubmit="event.preventDefault(); window.alert('Thank you! Your RSVP for FAST NUCES Islamabad has been recorded.');">
+            <p><label>Full Name:<br><input type="text" required style="width:100%; padding:8px; margin-top:4px;"></label></p><br>
+            <p><label>Email Address:<br><input type="email" required style="width:100%; padding:8px; margin-top:4px;"></label></p><br>
+            <p>
+                <label>
+                    Preferred Department:<br>
+                    <select style="width:100%; padding:8px; margin-top:4px;">
+                        <option>Computing Departments (C-Block)</option>
+                        <option>Engineering Departments (A-Block)</option>
+                    </select>
+                </label>
+            </p><br>
+            <button type="submit" class="btn">Submit RSVP</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FAST NUCES Islamabad | Created by Muhammad Umair (i26-3190, SE-D)</p>
+    </footer>
+</body>
+</html>
