@@ -1,37 +1,113 @@
-/* Name: Muhammad Umair */
-/* Roll No: i26-3190 */
-/* Section: SE-D */
-<!DOCTYPE html>
-<html>
-<head>
-<title>Event Invitation</title>
-</head>
-<body>
-<h1>Invitation To</h1>
-<h2>FAST NUCES ISLAMABAD </h2>
-<p> We will select candidate of each department on the basis of merit and the entry test. For further information visit our website:</p>
-<a href https://isb.nu.edu.pk/>FAST NUCES Islamabad.com<br></a>
-<img src="Images/fsm-photo-3.png" alt="FAST NUCES ISLAMABAD" width="700" height="300">
-<table>
-<tr>
-    <th>Department</th>
-    <th>Venue</th>
-    <th>Timing</th>
-    <th>Date</th>
-</tr>
-<tr>
-    <td>Computing Departments</td
-        >
-    <td>C-Block C-203</td>
-    <td>8:30 to 3:30</td>
-    <td>12th November, 2026</td>
-</tr>
-<tr>
-    <td>Engineering Departments</td>
-    <td>A-Block A-103</td>
-    <td>8:30 to 3:30</td>
-    <td>12th November,2026</td>
-</tr>
-</table>
-</body>
-</html>
+/* Name: Muhammad Umair | Roll No: i26-3190 | Section: SE-D */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7fa;
+    color: #222222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #f0a500;
+}
+
+nav {
+    background-color: #002244;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+nav a:hover, nav a.active {
+    background-color: #f0a500;
+    color: #002244;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #003366;
+    margin-bottom: 12px;
+}
+
+header h1, header h2 {
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 15px 0;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f6fa;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #00509e;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: #ffffff;
+    margin-top: 40px;
+}
